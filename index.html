@@ -1,0 +1,30 @@
+<style>
+    body {
+        margin: 0;
+    }
+
+    #background {
+        filter: grayscale() blur(10px);
+        float: left;
+        height: 100%;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    #foreground {
+        filter: drop-shadow(0px 8px 30px rgb(90, 220, 240));
+        float: left;
+        height: 100%;
+        left: 0;
+        object-fit: scale-down;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+</style>
+
+<img id="background" src="./skypiea.jpg">
+<img id="foreground" src="./skypiea.jpg">
